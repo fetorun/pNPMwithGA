@@ -1,0 +1,4 @@
+- create config file: release.config.cjs https://semantic-release.gitbook.io/semantic-release/usage/configuration
+- package.json add: files:["dist","README.md"] https://docs.npmjs.com/cli/v10/configuring-npm/package-json#files
+- package.json add: "publishConfig": {"access": "public"} https://docs.npmjs.com/cli/v10/configuring-npm/package-json#publishconfig
+- package.json update:  "version": "0.0.0-development",
